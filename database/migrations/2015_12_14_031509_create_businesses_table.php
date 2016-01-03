@@ -18,6 +18,7 @@ class CreateBusinessesTable extends Migration
             $table->string('name');
             $table->string('url');
             $table->text('address');
+			$table->string('city');
             $table->string('region');
             $table->string('country');
             $table->string('code');
