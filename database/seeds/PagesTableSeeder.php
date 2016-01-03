@@ -15,7 +15,7 @@ class PagesTableSeeder extends Seeder
     {
         $business = Business::find(1);
 
-		$business->saveMany([
+		$business->pages()->saveMany([
 			new Page([
 				'uri' => '',
 				'title' => 'Web Architech',
