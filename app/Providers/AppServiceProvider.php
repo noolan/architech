@@ -2,6 +2,7 @@
 
 namespace Architech\Providers;
 
+use View;
 use Illuminate\Support\ServiceProvider;
 use Architech\Business;
 
