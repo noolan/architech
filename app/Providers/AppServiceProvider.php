@@ -24,6 +24,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-		$this->app->instance('Business', Business::byURL(rtrim($this->app['request']->instance()->getBaseUrl(), '/')));
+		$this->app->instance('Business', Business::byURL(rtrim($app['request']->instance()->getBaseUrl(), '/')));
     }
 }
