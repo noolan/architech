@@ -37,9 +37,7 @@
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 
 				<ul class="nav navbar-nav">
-				@foreach($business->navigation() as $navigation)
-					<li><a href="{{ $navigation['uri'] }}" class="{{ $navigation['active'] ? 'active' : '' }}">{{ $navigation['name'] }}</a></li>
-				@endforeach
+					
 				</ul>
 			</div>
 		</div>
