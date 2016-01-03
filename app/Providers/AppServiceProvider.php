@@ -24,6 +24,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-		$this->app->instance('Business', Business::byURL(rtrim($app['request']->instance()->getBaseUrl(), '/')));
+		//$this->app->instance('Business', Business::byURL(rtrim($app['request']->instance()->getBaseUrl(), '/')));
+
+		$this->app->singleton('Business', function($app)
+		{
+			return Business::with(['pages'])->where('url', '=', $app['request']->getHost())->firstOrFail();
+		});
     }
 }
