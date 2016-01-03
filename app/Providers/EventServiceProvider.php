@@ -1,6 +1,6 @@
 <?php
 
-namespace architech\Providers;
+namespace Architech\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'architech\Events\SomeEvent' => [
-            'architech\Listeners\EventListener',
+        'Architech\Events\SomeEvent' => [
+            'Architech\Listeners\EventListener',
         ],
     ];
 

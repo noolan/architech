@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: architech
-        psr4_prefix: architech
+        namespace: Architech
+        psr4_prefix: Architech
         src_path: app

@@ -1,6 +1,6 @@
 <?php
 
-namespace architech\Providers;
+namespace Architech\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

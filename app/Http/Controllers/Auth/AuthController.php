@@ -1,10 +1,10 @@
 <?php
 
-namespace architech\Http\Controllers\Auth;
+namespace Architech\Http\Controllers\Auth;
 
-use architech\User;
+use Architech\User;
 use Validator;
-use architech\Http\Controllers\Controller;
+use Architech\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

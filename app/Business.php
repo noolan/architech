@@ -1,6 +1,6 @@
 <?php
 
-namespace architech;
+namespace Architech;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace architech\Http\Middleware;
+namespace Architech\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => architech\User::class,
+    'model' => Architech\User::class,
 
     /*
     |--------------------------------------------------------------------------

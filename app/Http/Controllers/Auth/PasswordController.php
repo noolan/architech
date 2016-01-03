@@ -1,8 +1,8 @@
 <?php
 
-namespace architech\Http\Controllers\Auth;
+namespace Architech\Http\Controllers\Auth;
 
-use architech\Http\Controllers\Controller;
+use Architech\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

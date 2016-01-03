@@ -1,6 +1,6 @@
 <?php
 
-namespace architech\Jobs;
+namespace Architech\Jobs;
 
 use Illuminate\Bus\Queueable;
 

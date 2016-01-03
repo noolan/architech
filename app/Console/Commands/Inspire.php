@@ -1,6 +1,6 @@
 <?php
 
-namespace architech\Console\Commands;
+namespace Architech\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

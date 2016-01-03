@@ -1,6 +1,6 @@
 <?php
 
-namespace architech\Exceptions;
+namespace Architech\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

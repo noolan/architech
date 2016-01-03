@@ -1,6 +1,6 @@
 <?php
 
-namespace architech\Events;
+namespace Architech\Events;
 
 abstract class Event
 {

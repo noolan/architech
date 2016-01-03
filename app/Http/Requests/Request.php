@@ -1,6 +1,6 @@
 <?php
 
-namespace architech\Http\Requests;
+namespace Architech\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
