@@ -3,6 +3,7 @@
 namespace Architech\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Architech\Business;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,6 +24,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+		$this->app->instance('Business', Business::byURL(rtrim($this->app['request']->instance()->getBaseUrl(), '/')));
     }
 }

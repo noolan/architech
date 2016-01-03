@@ -13,4 +13,8 @@ class Page extends Model
 	public function business() {
 		return $this->belongsTo('Architech\Business');
 	}
+
+	public static function findByURI($uri) {
+		return Page::where('uri', '=', $uri)->first();
+	}
 }

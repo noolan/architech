@@ -29,4 +29,8 @@ class Business extends Model
 	public function tags() {
 		return $this->hasMany('Architech\Tag');
 	}
+
+	public static function findByURL($url) {
+		return Business::where('url', '=', $url)->first();
+	}
 }
